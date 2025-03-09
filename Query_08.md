@@ -1,4 +1,4 @@
-### 8. In which quarter of 2020, got the maximum total_sold_quantity? The final output contains these fields sorted by the total_sold_quantity,
+### Q8. In which quarter of 2020, got the maximum total_sold_quantity? The final output contains these fields sorted by the total_sold_quantity,
 - Quarter 
 - total_sold_quantity
 
