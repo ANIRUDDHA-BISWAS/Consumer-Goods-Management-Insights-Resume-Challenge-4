@@ -27,3 +27,30 @@ WHERE fsm.fiscal_year = 2021
 GROUP BY dc.channel
 ORDER BY SUM(fsm.sold_quantity * fgp.gross_price) DESC;
 ```
+
+<table>
+        <thead>
+            <tr>
+                <th>Channel</th>
+                <th>Gross Sales (Million)</th>
+                <th>Percentage Contribution</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Retailer</td>
+                <td>1,219.08M</td>
+                <td>73.23%</td>
+            </tr>
+            <tr>
+                <td>Direct</td>
+                <td>257.53M</td>
+                <td>15.47%</td>
+            </tr>
+            <tr>
+                <td>Distributor</td>
+                <td>188.03M</td>
+                <td>11.30%</td>
+            </tr>
+        </tbody>
+</table>
