@@ -56,7 +56,7 @@ AND pre_invoice_discount_pct > (SELECT
 								WHERE fiscal_year = 2021)
 AND dc.market = 'India'
 ORDER BY pre_invoice_discount_pct DESC
-LIMIT ;
+LIMIT 5;
 ```
 
 <table>
